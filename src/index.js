@@ -1,22 +1,8 @@
-const dotenv = require("dotenv");
-dotenv.config();
+require("dotenv").config();
 
-const { GoogleGenerativeAI } = require("@google/generative-ai");
+const { generateContent } = require("./Modules/Gemini");
 
-// Access your API key as an environment variable (see "Set up your API key" above)
-const genAI = new GoogleGenerativeAI(process.env.API_KEY);
-
-// ...
-async function run() {
-  // For text-only input, use the gemini-pro model
-  const model = genAI.getGenerativeModel({ model: "gemini-pro"});
-
-  const prompt = "너를 소개해 줘"
-
-  const result = await model.generateContent(prompt);
-  const response = await result.response;
-  const text = response.text();
-  console.log(text);
-}
-
-run();
+(async () => {
+  const result = await generateContent("심심한데 할 거 없을까? 답변은 반말로 해 줘");
+  console.log(result);
+})();
