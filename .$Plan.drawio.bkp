@@ -1,0 +1,79 @@
+<mxfile host="Electron" modified="2023-12-30T05:02:56.650Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="jEjCh71JyBFsKamM_j2P" version="22.0.3" type="device">
+  <diagram name="페이지-1" id="9j62Vlly7abwq7X1d5x2">
+    <mxGraphModel dx="1418" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-2" value="결과 출력" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="584.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3Oq8FPbL3lqYJRFhmLxk-3" target="3Oq8FPbL3lqYJRFhmLxk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-3" value="입력 시작" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3Oq8FPbL3lqYJRFhmLxk-4" target="3Oq8FPbL3lqYJRFhmLxk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-4" value="영어로 번역&lt;br&gt;DeepL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3Oq8FPbL3lqYJRFhmLxk-5" target="3Oq8FPbL3lqYJRFhmLxk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-5" value="한국어&lt;br&gt;prompt" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3Oq8FPbL3lqYJRFhmLxk-6" target="3Oq8FPbL3lqYJRFhmLxk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-6" value="AI 처리&lt;br&gt;Gemini vs LLM?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3Oq8FPbL3lqYJRFhmLxk-7" target="3Oq8FPbL3lqYJRFhmLxk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-7" value="한국어로 번역&lt;br&gt;DeepL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3Oq8FPbL3lqYJRFhmLxk-8" target="3Oq8FPbL3lqYJRFhmLxk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-8" value="말투 변환&lt;br&gt;AI처리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-15" value="토큰 절약&lt;br&gt;딜레이 증가" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="235" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-16" value="토큰 절약&lt;br&gt;딜레이 증가" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="415" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="370" as="sourcePoint" />
+            <mxPoint x="360" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-21" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3Oq8FPbL3lqYJRFhmLxk-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="330" as="sourcePoint" />
+            <mxPoint x="360" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-22" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;유료 API 사용?&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-23" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;최소 한달 3만원 정도 나오는 것 같은데&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;예산 초과임&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Gemini Pro가 1분 60req 무료같긴 한데&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;세이프티가 너무 빡세더라&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="216" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-25" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;DeepL 사용?&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oq8FPbL3lqYJRFhmLxk-26" value="&lt;div style=&quot;&quot;&gt;토큰 절약하겠다고 영어로 뽑는데&lt;/div&gt;&lt;div style=&quot;&quot;&gt;그러면 또 DeepL에서 요금이 나옴&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="320" width="216" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
