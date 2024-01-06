@@ -6,3 +6,6 @@ node_modules/
 
 # Ignore 메모장.txt file
 note.txt
+
+# Ignore .DS_Store file
+.$Plan.drawio.bkp

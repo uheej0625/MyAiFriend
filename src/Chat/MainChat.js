@@ -45,10 +45,15 @@ module.exports = {
     const messages = await openai.beta.threads.messages.list(openAiThreadId);
     let response = messages.data[0].content[0].text.value;
     response = response.substring(0, 1999) //Discord msg length limit when I was testing
-
+    
     console.log(response);
-
-    client.users.cache.get(message.author.id).send(response);
+    // 끊어 보내기 --스트리밍 기능 나오면 뜯어 고쳐야 함
+    const text = response.split(/(?<=[.?!])/);
+    for (let i = 0; i < text.length; i++) {
+        console.log(text[i])
+        client.users.cache.get(message.author.id).send(text[i]);
+    }
+    //if (inter)
     //message.reply(response);
   },
 };
